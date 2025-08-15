@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>submit form</h1>
+  <form action="./submit.html" method="get" autocomplete="off" >
+    <label for ='first'> FirstName:</label>
+    <input type="text" name="FirstName" id="first" autofocus>
+    <br>
+    <label for ='last' >LastName:</label>
+    <input type ='text' name="LastName" id="last">
+    <br>
+     <label for ='date'>Date</label>
+     <input type ="date" name="Date">
+    <br>
+    <label for="male">Male:</label>
+    <input type="radio" id = male name="Gender" value="male">
+    <br>
+    <labe for ='female'>Female:</label>
+    <input type ="radio" id ='female' name="Gender" value="female">
+    <br>
+    <labe for ='num'> Number<span style="color: red;">*</span> :</label>
+    <input type="text" id="num" name="Number" required >
+    <br>
+    <label for ='Aadhar'>Aadhar:</label>
+    <input type="text" name ='aadhar' required maxlength="12" minlength="12">
+    <br>
+    <label for ='email'  >Email</label>
+    <input type="email" name="email" id="email" required>
+    <br>
+    
+    <input type = 'submit'>
+
+
+
+  </form>
+</body>
+</html>

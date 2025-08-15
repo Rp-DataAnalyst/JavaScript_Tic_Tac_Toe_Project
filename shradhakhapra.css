@@ -1,0 +1,9 @@
+ .box{
+  height: 300px;
+  width: 300px;
+  background: cyan;
+  align-items: center;
+  font-size: 4rem;
+  transition: transform 2s ease;
+  transform: rotate(-45deg);
+ }

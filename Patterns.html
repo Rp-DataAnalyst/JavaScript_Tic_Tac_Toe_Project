@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+</head>
+<body>
+      <!-- We write regular expressions in input field -->
+       <form action="submit.html">
+            <!-- <input type="text" placeholder="enter a Hh@81" required pattern="Hh@81"> -->
+             <!-- <input type="text" placeholder="enter number 123" required pattern="123" title="123" required>
+             <br>
+             <br>
+             <input type="text" placeholder="enter alfa abc" pattern="abc" title="enter abc" required>
+             <br>
+             <br>
+             <br>
+            <input type="text" placeholder="ABC" pattern="ABC" title="enter ABC" required >
+
+             <br>
+             <br>
+             <br>
+             <input type="text" placeholder="enter any one" title="enter any one inside a keyword" pattern=".+" required>
+             <br>
+             <br>
+             <input type = 'submit'> -->
+             <!-- . = any character
+             + = one are more prev
+             - =  to 
+             [] = any character from the square brackets
+             ^ = starting of pattern
+             $ = ending of pattern
+             [^abc] = except 'abc' you can enter any character
+             \+ 
+             \+91[6-9]
+             {single} = normal range{9}
+             {start,}= start range
+             {starat,endrange}
+
+              -->
+            <input type="text" pattern="\+91[6-9][0-9]{9}" >
+            <input type = 'text' pattern="5[0-9]{5}">
+            <input type="submit" >
+       </form>
+      
+</body>
+</html>

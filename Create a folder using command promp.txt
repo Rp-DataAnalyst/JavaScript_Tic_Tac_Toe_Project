@@ -1,0 +1,3 @@
+Create a folder using command prompt 
+How to open html file using command prompt
+How to open vs code using command prompt
